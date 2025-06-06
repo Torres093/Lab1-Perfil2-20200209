@@ -24,12 +24,13 @@ public class Main {
                  break;
              case 2:
                  System.out.println("Estos Son los productos disponibles: ");
-                 System.out.println("");
+                 System.out.println();
                  break;
              case 3:
                  System.out.println("Ingrese el ID del producto que desea eliminar");
                  Scanner sc3 = new Scanner(System.in);
                  int idProducto = sc3.nextInt();
+                 System.out.println("El producto se eliminó correctamente");
                  break;
              case 4:
                 System.out.println("Tenga un buen día :)");
